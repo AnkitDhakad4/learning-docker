@@ -1,0 +1,19 @@
+{
+  "name": "mern-notes-snippets-backend",
+  "version": "1.0.0",
+  "description": "Express + MongoDB REST API for Notes & Snippet Manager",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0"
+  }
+}

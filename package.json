@@ -1,0 +1,26 @@
+{
+  "name": "mern-notes-snippets",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Notes & Code Snippet Manager",
+  "scripts": {
+    
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "dev":"concurrently \"npm run server\" \"npm run client\"",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "notes",
+    "snippets"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
