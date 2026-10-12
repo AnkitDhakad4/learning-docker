@@ -201,7 +201,6 @@ export default function App() {
           </section>
         )}
       </main>
-
       <NoteDialog
         isOpen={isDialogOpen}
         initialData={editingNote}

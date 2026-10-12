@@ -1,3 +1,4 @@
+// VITE_API_URL should point to the notes endpoint, not just the API server root.
 const API_BASE_URL = import.meta.env.VITE_API_URL || '/api/notes';
 
 async function handleResponse(response) {
